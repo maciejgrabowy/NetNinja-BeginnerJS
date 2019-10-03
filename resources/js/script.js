@@ -15,7 +15,7 @@ if (numbersNumbers == 16) {
   console.log("Nope, it's not 16");
 }
 
-//age tester
+//if else conditionals: age tester
 var myAge = 33;
 if (myAge > 30) {
   console.log("You're over thirty! Basically a boomer!");
@@ -30,11 +30,18 @@ if (myAge > 30) {
   console.log("You're basically a baby");
 }
 
+//for loop
 var links = document.getElementsByTagName("a");
 
 for (i = 1; i < links.length; i++) {
-  console.log("that's a link number" + 1);
-  
+  console.log("that's a link number" + i);
 }
-
 document.write("all links are now looped, friend");
+
+//simple function
+function getAverage(a,b,c) {
+  var average = (a + b + c) /3;
+  console.log(average);
+  return average;
+}
+getAverage(5,10,3);
