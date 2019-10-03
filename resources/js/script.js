@@ -45,3 +45,10 @@ function getAverage(a,b,c) {
   return average;
 }
 getAverage(5,10,3);
+
+//strings
+var myString = "Hast thou sampled from the root of T'Char?";
+console.log("The length is " + myString.length);
+console.log(myString.toUpperCase());
+console.log(myString.toLowerCase());
+console.log("The index of the word 'root' is " + myString.indexOf("root"));
